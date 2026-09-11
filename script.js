@@ -1,0 +1,2 @@
+const menu=document.querySelector('.menu'),nav=document.querySelector('.nav nav');
+if(menu){menu.addEventListener('click',()=>{const open=nav.dataset.open==='1';nav.dataset.open=open?'0':'1';nav.style.display=open?'none':'flex';nav.style.position='absolute';nav.style.top='74px';nav.style.left='0';nav.style.right='0';nav.style.padding='18px 4%';nav.style.background='#fff';nav.style.flexDirection='column';nav.style.borderBottom='1px solid #e5e8ee';});}
